@@ -1,0 +1,17 @@
+{
+  "name": "cyber-monopoly-server",
+  "version": "1.0.0",
+  "description": "Cyber Monopoly — real-time multiplayer board game for ACN 2026",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  }
+}

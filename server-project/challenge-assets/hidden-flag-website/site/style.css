@@ -1,0 +1,5 @@
+body { font-family: sans-serif; margin: 40px; background: #f4f4f4; }
+h1 { color: #222; }
+.status { color: darkorange; font-weight: bold; }
+/* FLAG-2: CM-DT-4470 */
+footer { font-size: 0.8em; color: #666; margin-top: 40px; }

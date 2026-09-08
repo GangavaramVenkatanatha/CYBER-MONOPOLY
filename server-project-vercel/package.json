@@ -1,0 +1,9 @@
+{
+  "name": "cyber-monopoly-vercel",
+  "version": "1.0.0",
+  "description": "Cyber Monopoly — ACN 2026 (Vercel + Supabase edition)",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  }
+}

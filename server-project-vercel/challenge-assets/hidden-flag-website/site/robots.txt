@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /portal-admin-7742.html
