@@ -5,6 +5,12 @@
       "maxDuration": 10
     }
   },
+  "rewrites": [
+    { "source": "/api/admin/:action", "destination": "/api/admin?action=:action" },
+    { "source": "/api/board/:action", "destination": "/api/board?action=:action" },
+    { "source": "/api/player/:action", "destination": "/api/player?action=:action" },
+    { "source": "/api/gm/:action", "destination": "/api/gm?action=:action" }
+  ],
   "crons": [
     { "path": "/api/cron/sweep", "schedule": "0 0 * * *" }
   ]
